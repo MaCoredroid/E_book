@@ -1,0 +1,23 @@
+body
+{ 
+  background-image:url(book0b.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+#pic
+{
+	padding-left: 850px;
+}
+
+#arc
+{
+	color:white;
+}
+
+#p1
+{
+	padding-left: 450px;
+

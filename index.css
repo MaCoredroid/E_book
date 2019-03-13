@@ -1,0 +1,151 @@
+body { 
+  background-color: #eff4ff;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+
+
+header.top {
+  background-color: #2d89ef;
+  margin: 10px 10px 0px 10px;
+  height:           112px;
+}
+
+header.top img#headerlogo {
+	
+	 width: 100%;
+}
+
+
+/* nav new in blog */
+nav {
+    background-color: #b91d47;
+	margin: 10px 10px 0px 10px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+
+
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+div#tableRow {
+	display: table-row;
+}
+
+section#sugs {
+    display: table-cell;
+    background-color: #603cba;
+	color:white;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+
+/* added section#blog for blog */
+section#main {
+  display: table-cell;
+  background:       #99b433 ;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+  color:white;
+  font-weight: lighter;
+}
+
+aside {
+  display: table-cell;
+  background:       #00aba9 ;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+  color:white;
+}
+
+footer {
+  background-color: #675c47;
+  color:            #efe5d0;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        90%;
+}
+
+h1 {
+  font-size:        120%;
+  color:            white;
+}
+
+h2 { font-size: 110%; }
+
+.slogan { color: #954b4b; }
+
+.beanheading {
+  text-align:       center;
+  line-height:      1.8em;
+}
+
+a:link {
+  color:            #b76666;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+
+/* ALL BELOW IS NEW FOR BLOG */
+
+
+/* BELOW a above to override for nav */
+nav ul li a:link, nav ul li a:visited {
+	color: white;
+	border-bottom: none;
+	font-weight: normal;
+
+	/* optional! very hard to see although does help */
+	text-shadow: 1px 1px 3px #e2c2c2; 
+
+	/* try this and see if you like it */
+	text-transform: uppercase;
+}
+
+li.selected {
+	background-color: #c8b99c;
+}
+
+article span {
+	font-style: italic;
+}
+
+img.one {
+  height: 50%;
+  width: 50%;
+}
+
+#head{
+	color:white;
+    font: 5.0em monospace;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top:auto;
+	margin-bottom:auto;
+    width: 1400px;
+	height:100px;
+    display: flex;
+    align-items: center 
+}
+

@@ -1,0 +1,31 @@
+#login
+{
+	color:white;
+    font: 1.5em monospace;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top:auto;
+	margin-bottom:auto;
+    width: 400px;
+	height:750px;
+    display: flex;
+    align-items: center 
+    
+}
+body
+{ 
+  background-image:url(login.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+#SI
+{
+    background-color:rgba(117, 190, 218, 0.5);
+	 border: solid;
+	 border-color: white;
+	 border-width: 1px;
+	 color:white;
+}
+

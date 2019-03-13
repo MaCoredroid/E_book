@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The list of all books in the e-book system</title>
+	<style type="text/css">
+      td, th { border: 1px solid black; }
+    </style>
+	<link rel="stylesheet" type="text/css" href="list.css">
+  </head>
+  <body>
+  <nav>
+	<ul>
+		<li><input type="text" placeholder="Search.."></li>
+	</ul>
+   </nav>
+    <table id="t1">
+      <tr>
+        <th width="300">Title </th>
+        <th width="300">Author</th>
+        <th width="300">Cover</th>
+        <th width="300">ISBN</th>
+        <th width="300">Inventory</th>
+      </tr>
+      <tr>
+        <td id="demo" onclick="myFunction()">Where the Crawdads Sing </td>
+        <td>Delia Owens </td>
+        <td><img width="70%" height="90%" src="book0.jpg" ></td>
+        <td>B078GD3DRG</td>
+        <td>29,686</td>
+       
+      </tr>
+      <tr>
+        <td id="demo1" onclick="myFunction1()">Eleanor Oliphant Is Completely Fine: A Novel</td>
+        <td>Gail Honeyman</td>
+        <td><img width="70%" height="90%" src="book2.jpg" /></td>
+        <td>B01KGZVTOE</td>
+        <td>50</td>
+       
+      </tr>
+      <tr>
+        <td id="demo2" onclick="myFunction2()">The Silent Patient</td>
+        <td>Alex Michaelides </td>
+        <td><img width="70%" height="90%" src="book1.jpg" /></td>
+        <td>B07D2C6J4K</td>
+        <td>41,173</td>
+        
+      </tr>
+      <tr>
+        <td id="demo3" onclick="myFunction3()">Becoming </td>
+        <td>Michelle Obama</td>
+        <td><img width="70%" height="90%" src="book3.jpg" /></td>
+        <td>B079ZYWJJ8</td>
+        <td>265</td>
+        
+      </tr>
+      
+    </table>
+	<script>
+	    var flag = 1;
+        function myFunction()
+		{
+		 if(flag==1)
+         {
+		     document.getElementById("demo").style.color = "red";
+			 flag=0;
+		 }
+		 else
+		 {
+		     document.getElementById("demo").style.color = "black";
+			 flag=1;
+		 }
+        }
+		
+		var flag1 = 1;
+        function myFunction1()
+		{
+		 if(flag1==1)
+         {
+		     document.getElementById("demo1").style.color = "red";
+			 flag1=0;
+		 }
+		 else
+		 {
+		     document.getElementById("demo1").style.color = "black";
+			 flag1=1;
+		 }
+        }
+		
+		var flag2 = 1;
+        function myFunction2()
+		{
+		 if(flag2==1)
+         {
+		     document.getElementById("demo2").style.color = "red";
+			 flag2=0;
+		 }
+		 else
+		 {
+		     document.getElementById("demo2").style.color = "black";
+			 flag2=1;
+		 }
+        }
+		
+		var flag3 = 1;
+        function myFunction3()
+		{
+		 if(flag3==1)
+         {
+		     document.getElementById("demo3").style.color = "red";
+			 flag3=0;
+		 }
+		 else
+		 {
+		     document.getElementById("demo3").style.color = "black";
+			 flag3=1;
+		 }
+        }
+    </script>
+	
+  </body>
+  
+</html>

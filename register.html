@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Register </title>
+	<link type="text/css" rel="stylesheet" href="login.css">
+  </head>
+  <body>
+  <div id="login">
+    <form action="" method="POST" onsubmit= "myfunc()">
+      <p><br>
+
+        Username: <input type="text" name="username" value="" id="UN"><br>
+		<br>
+        Password:  <input type="password" name="password" value="" ><br>
+		<br>
+		
+		Repeat your password again:<br>
+		<br>
+		Password:  <input type="password" name="password1" value="" ><br>
+		<br>
+		
+		Mailbox : <input type="text" name="mailbox" value="" ><br>
+		<br>
+		
+        <input type="submit">
+      </p>
+    </form>
+	<script>
+		function myfunc()
+		{
+			var username = document.getElementById('UN').value;
+			window.alert("Your username is "+ username);
+		}
+	</script>
+  </div>
+  </body>
+</html>
